@@ -1,9 +1,8 @@
 import "allocator/arena";
 
 import { env as EOS, ISerializable, Contract } from "./eoslib/eoslib";
-import { DataStream } from "./eoslib/Datastream";
+import { DataStream } from "./eoslib/datastream";
 import { printstr, N, assert } from "./eoslib/utils";
-// import {Board, BoardSize} from "./models";
 import { Create, Remove, RemoveAll, Step } from "./eoslib/actions";
 
 

@@ -1,5 +1,15 @@
 # GAME OF LIFE for EOS in TypeScript
 
+ Step by step guide on how to execute our first TypeScript proof of concept, where we modified the version of Game of Life that Conway proposed by Fleming on https://github.com/tbfleming/eos-game-of-life. 
+ 
+ You will be able to see the implementations in TypeScript of:
+
+
+- Use of apply and execution of actions
+- Deserialization of contract entry parameters
+- Use of require_auth
+- Read and Inserts in tables
+- Using same abi file between c ++ and TypeScript
 
 
 ## 1 Prerequisites - Access to EOS Testnet / Node
@@ -33,7 +43,7 @@ cd gameoflife-ts
 ```bash
 ./scripts/01-prepare.sh
 ```
-- review this script provided as example and update with your actual context, eg your wallet pass, change cleos to a remote http like cleos  -u http\:// remote, chain your keys, etc.
+- review this script provided as example and update with your actual context, eg your wallet pass, change cleos to a remote http like cleos  -u http\:// remote, change your keys, etc.
 - this script should be only executed once, during setup, is setting eosio.token and eosio.system contracts, creating eos token, and creating gameoflife account.
 
 
