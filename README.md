@@ -66,7 +66,7 @@ cd gameoflife-ts
 ./scripts/04-play.sh
 ```
 - if all worked well you are going to see animated game of life results.
-- review each script, if you have any question or like to discuss about this contact us on on need support don't hesitate an ask support on http://eosaurora.io -> telegram.
+- review each script, if you have any question don't hesitate to ask us for support on http://eosaurora.io -> telegram.
 
 
 ![](./assets/eg0.png)
